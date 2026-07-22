@@ -22,7 +22,7 @@ Q5: What is 10101 + 01010?
 Answer: 11111
 
 Q6: What is 10001 + 10001?
-Answer: 11100
+Answer: 100010
 
 Q7: What's the largest number you can store with 4 bits, if you want to be able to represent the number 0?
 Answer: 15
