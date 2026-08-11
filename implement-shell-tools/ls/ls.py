@@ -19,7 +19,7 @@ def entries(directory):
         names = names + [".", ".."]
     else:
         names = [name for name in names if not name.startswith(".")]
-    return sorted(names)
+    return sorted(names, key=lambda name: name.lstrip(".").lower())
 
 
 files = []
